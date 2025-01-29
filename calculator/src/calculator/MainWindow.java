@@ -118,7 +118,7 @@ public class MainWindow implements ActionListener{
 		if (e.getSource() == this.buttonPlus) {
 	
 			num1 = Double.parseDouble(text.getText());
-			char operator = '+';
+			operator = '+';
 			this.text.setText("");
 			
 		}
